@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coraline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #003366; /* Azul escuro */
+            color: #f0f0f0; /* Texto claro */
+            font-family: 'Cinzel', serif; /* Fonte antiga e diferente */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #ffd700; /* Dourado */
+            border-radius: 10px;
+        }
+        h1 {
+            margin-top: 20px;
+            font-size: 3em;
+            color: #ffd700; /* Dourado */
+        }
+        p {
+            font-size: 1.2em;
+            color: #e0e0e0; /* Texto claro */
+        }
+        a {
+            color: #ffd700; /* Dourado */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #a59a00; /* Roxo escuro ao passar o mouse */
+        }
+        #sinopse, #elenco {
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #000000; /* Preto */
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+        }
+        #sinopse h2, #elenco h2 {
+            color: #ffd700; /* Dourado */
+            font-size: 2em;
+        }
+        ul {
+            list-style-type: none; /* Remove marcadores da lista */
+            padding: 0;
+        }
+        li {
+            font-size: 1.1em;
+            margin: 5px 0;
+            color: #e0e0e0; /* Texto claro */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coraline</h1>
+        <img src="caminho-para-sua-capa.jpg" alt="Capa do Filme Coraline">
+        <p>Bem-vindo ao mundo de Coraline!</p>
+        <p><a href="#sinopse">Leia mais sobre o filme</a> | <a href="#elenco">Elenco</a></p>
+    </div>
+
+    <div id="sinopse">
+        <h2>Sinopse</h2>
+        <p>Coraline é uma jovem que descobre uma porta secreta em sua nova casa. Ao atravessar a porta, ela encontra um mundo alternativo que parece ser perfeito, mas que esconde segredos sombrios. Coragem e determinação são essenciais para que ela enfrente os desafios desse novo mundo.</p>
+    </div>
+
+    <div id="elenco">
+        <h2>Elenco</h2>
+        <p>Vozes:</p>
+        <ul>
+            <li>Coraline - Dakota Fanning</li>
+            <li>Outros - Teri Hatcher</li>
+            <li>Wybie - Robert Bailey Jr.</li>
+            <li>Senhor Bobinsky - Ian McShane</li>
+            <li>Senhorita Forcible - Jennifer Saunders</li>
+            <li>Senhorita Spink - Dawn French</li>
+        </ul>
+    </div>
+</body>
+</html>
